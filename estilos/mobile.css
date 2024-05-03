@@ -24,7 +24,7 @@ section#login {
     background-color: white;
     margin: auto;
    text-align: center;
-   padding: 15px;
+   padding: 0%;
    width: 250px;
    height: 500px;
    border-radius: 20px;
@@ -38,7 +38,7 @@ section#login >div#img {
     background: hsl(297, 84%, 20%) url(../img/pq.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 12px;
     height: 200px;
 
 }
