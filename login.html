@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="img/icons8-kissing-cat-32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/mediaquerie.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -22,7 +23,33 @@
             <div id="form">
                 <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
-                    <form action="login.php" method="post"></form>
+                    <form action="login.php" method="post" autocomplete="on">
+                        <div class="campo">
+                            <span class="material-symbols-outlined">
+                                person
+                                </span>
+                            <input type="email" name="login" id="login" placeholder="Seu Email" autocomplete="email" required>
+                             <label for="login"></label>
+                        </div>
+                        <div class="campo">
+                            <span class="material-symbols-outlined">
+                                key
+                                </span>
+                            <input type="password" name="senha" id="senha" placeholder="Sua Senha" autocomplete="current-password" required minlength="8" maxlength="15">
+                             <label for="senha"></label>
+
+                        </div><br>
+                            <div>
+                                <input type="submit" value="Entrar" name="entrar" id="entrar">
+                                <label for="entrar"></label><br>
+                            </div>
+                            <a href="#">Esqueci a Senha <span class="material-symbols-outlined">
+                                lock_open
+                                </span></a>
+
+
+
+                    </form>
 
 
 

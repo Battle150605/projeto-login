@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: linear-gradient(to top, purple , pink);
+        background-image: linear-gradient(to top, rgb(50, 207, 121) , rgb(119, 184, 238));
 
     }
     section#login{
@@ -18,13 +18,16 @@
     section#login > div#form  {
         float: right;
         width: 55%;
+        
     }
-
+    div#form >p {
+        font-size: 1em;
+    }
     }
 
     @media screen and (min-width: 992px) {
         body{
-            background-image: linear-gradient(to bottom, purple , pink);
+            background-image: linear-gradient(to bottom, rgb(87, 192, 241) , rgb(129, 230, 109));
     
         }
 
@@ -34,13 +37,16 @@
     }
     
     section#login > div#img{
-        float: left;
-        width: 40%;
+        float: right;
+        width: 50%;
         height: 100%;
         background-position: center center;
     }
     section#login > div#form {
-        float: right;
-        width: 60%;
+        float: left;
+        width: 50%;
+    }
+    div#form >p {
+        font-size: 1em;
     }
     }
